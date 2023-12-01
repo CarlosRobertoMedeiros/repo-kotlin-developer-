@@ -18,6 +18,17 @@ fun main(){
     println("Bonus para Cargo Estagiarios ${calculaBonusComExperiencia("Estagiarios", 0)} ")
     println("Bonus para Cargo Desconhecido ${calculaBonusComExperiencia("Generico", 0)} ")
 
+    // c) Qual o resultado das expressões
+    val a = false
+    val b = false
+    val c = true
+    val d = true
+
+    println("O resultado da expressão 'a && b && c && d' é ${a && b && c && d}")
+    println("O resultado da expressão '!a && !b && (c && d)}' é  ${!a && !b && (c && d)}")
+    println("O resultado da expressão 'a && ((b || c) || d)'é ${a && ((b || c) || d)} ")
+    println("O resultado da expressão 'a || ((!b && c) || d))' é ${a || ((!b && c) || d)}")
+
 }
 
 fun calculaBonus(cargo:String) = if (cargo.equals("Gerentes")) 2000.00f
@@ -27,9 +38,9 @@ fun calculaBonus(cargo:String) = if (cargo.equals("Gerentes")) 2000.00f
                                  else 0.00f
 
 fun calculaBonusComExperiencia(cargo:String, experiencia:Int) = if (cargo.equals("Gerentes") && experiencia <2 ) 2000.00f
-                                                                else if (cargo.equals("Gerentes") && experiencia >2 ) 3000.00f
+                                                                else if (cargo.equals("Gerentes") && experiencia >=2 ) 3000.00f
                                                                 else if (cargo.equals("Coordenadores")&& experiencia <2) 1500.00f
-                                                                else if (cargo.equals("Coordenadores")&& experiencia >2) 1800.00f
+                                                                else if (cargo.equals("Coordenadores")&& experiencia >=2) 1800.00f
                                                                 else if (cargo.equals("Engenheiros")) 1000.00f
                                                                 else if (cargo.equals("Estagiarios")) 500.00f
                                                                 else 0.00f
