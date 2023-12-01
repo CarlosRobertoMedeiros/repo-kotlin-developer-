@@ -1,6 +1,6 @@
-# Java Developer
+# Kotlin Developer
 
-Repositorio contendo código fonte referente a Java e a atualização das suas versões 8 / 11 / 17 / 21
+Repositorio contendo código fonte referente a Kotlin e a atualização da versão AdoptiumOpenJdk versão 11.0.21_9
 
 ## 🚀 Começando
 
@@ -10,14 +10,12 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 ### 📋 Pré-requisitos
 
-Necessário a instalação da JDK / OpenJDK(Free) de acordo com a versão do projeto 
+Necessário a instalação da OpenJDK(Free) de acordo com a versão do projeto 
 
 ### 🔧 Links para as versões do Projeto
-
-	- Java 21
-	- Java 17
-	- Java 11
-  - Versao com Implementacao:  [Java 8](https://github.com/CarlosRobertoMedeiros/repo-java-developer/tree/main/Java%208)
+  - Versão AdoptiumOpenJdk versão 11.0.21_9
+  - Link: https://adoptium.net/download/
+  - Link da documentação:  [Java 11](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais)
 
 ## 🖇️ Colaborando
 
