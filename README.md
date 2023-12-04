@@ -1,7 +1,7 @@
 # Kotlin Developer
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Spring](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 
 Repositorio contendo código fonte referente a Kotlin e a atualização da versão AdoptiumOpenJdk versão 17.0.9+9.1
 
@@ -14,20 +14,20 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 ### 📋 Pré-requisitos
 
 - Necessário a instalação da OpenJDK(Free) de acordo com a versão do projeto 
-- Necessário como gerenciador de dependência gradle 8.5 https://gradle.org/install/
+- Necessário como gerenciador de dependência gradle
 
 ### 🔧 Links para as versões do Projeto
-  - Versão AdoptiumOpenJdk versão jdk-17.0.9+9.1
+  - Versão AdoptiumOpenJdk versão 'jdk-17.0.9+9.1'
   - Link: https://adoptium.net/download/
   - Gerenciador de Dependencia: 'gradle 8.5'
   - Link: https://gradle.org/install/ 
-  - Link da documentação:  [Java 17](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais)
+  - Segue Link da documentação:
 
 | Assunto                | Link                                                                                                           |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------- |
-| 01-Fundamentos Gerais  | (https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais)   |
-| 02-Teste Unitário      | (https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/testeunitario)        | 
-| 03-Microservice-alunos | (https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/microservicos/microservice-alunos |
+| 01-Fundamentos Gerais  | [Fundamentos da Linguagem](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais)   |
+| 02-Teste Unitário      | [Teste Unitario com Kotlin](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/testeunitario)        | 
+| 03-Microservice-alunos | [Exemplo de Microservice](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/microservicos/microservice-alunos |
 
 ## 🖇️ Colaborando
 
