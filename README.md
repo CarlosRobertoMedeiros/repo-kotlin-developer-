@@ -26,8 +26,8 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 | Assunto                | Link                                                                                                           |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------- |
 | 01-Fundamentos Gerais  | [Fundamentos da Linguagem](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais)   |
-| 02-Teste Unitário      | [Teste Unitario com Kotlin](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/testeunitario)        | 
-| 03-Microservice-alunos | [Exemplo de Microservice](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/microservicos/microservice-alunos |
+| 02-Teste Unitário      | [Teste Unitario com Kotlin](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/testeunitario)       | 
+| 03-Microservice-alunos | [Exemplo de Microservice](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/microservicos/microservice-alunos) |
 
 ## 🖇️ Colaborando
 
