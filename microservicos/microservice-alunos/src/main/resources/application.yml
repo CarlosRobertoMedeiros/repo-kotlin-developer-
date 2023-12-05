@@ -1,14 +1,15 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
   application:
     name: crud-kotlin-springboot-rest
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:alunos-db;DB_CLOSE_DELAY=-1
-    username: sa
-    password:
+    hikari:
+      driver-class-name: org.h2.Driver
+      url: jdbc:h2:mem:alunos-db;DB_CLOSE_DELAY=-1
+      username: sa
+      password:
   h2:
     #http://localhost:8081/h2-console/
     console:
@@ -19,7 +20,26 @@ spring:
     database-plataform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
-    show-sql: true
+      show-sql: true
+
+# Configuração do OpenAPI
+#springdoc:
+#  api-docs:
+#    path: /api-docs
+#  swagger-ui:
+#    path: /swagger-ui.html
+#  show-actuator: true
+#  use-management-port: true
+#  # This property enables the openapi and swagger-ui endpoints to be
+#  # exposed beneath the actuator base path.
+#management:
+#  server:
+#    port: 9090
+#  endpoints:
+#    web:
+#      exposure:
+#        include: openapi, swagger-ui
+
 
 ## Configuração de log.
 #  logging:

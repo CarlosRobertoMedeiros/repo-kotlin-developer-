@@ -1,0 +1,15 @@
+openapi: 3.0.1
+info:
+  title: Minha API
+  version: 1.0.0
+paths:
+  /api/greet:
+    get:
+      summary: Retorna uma saudação
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              example:
+                message: Olá, Mundo!
