@@ -23,9 +23,10 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
   - Link: https://gradle.org/install/ 
   - Segue Link da documentação:
 
-| Assunto                  | Link                                                                                                                    |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------|
-| 1.0 -Teste Unitário      | [Teste Unitario](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/testeunitario) |
+| Assunto                  | Link                                                                                                                                                             |
+| ------------------------ | -----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0 -Versão Geral        | [Teste Unitario Visao Geral](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/blob/master/fundamentos/testeunitario/src/test/kotlin/MainTest.kt)  |
+| 1.1 -Coverage Básico     | [Teste Unitario Coverage](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/blob/master/fundamentos/testeunitario/src/test/kotlin/PortariaTest.kt) |
 
 ## 🖇️ Colaborando
 
