@@ -29,6 +29,7 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 | 1.1 -Funções Básicas     | [Fundamentos da Linguagem](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais/src/main/kotlin/b/funcoes)            | 
 | 1.2 -Controle de Fluxo   | [Fundamentos da Linguagem](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais/src/main/kotlin/c/controledefluxo)    | 
 | 1.3 -Exceções e NullSafe | [Fundamentos da Linguagem](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais/src/main/kotlin/d/excecoesnullsafety) | 
+| 1.4 -Mais Funções        | [Fundamentos da Linguagem](https://github.com/CarlosRobertoMedeiros/repo-kotlin-developer-/tree/master/fundamentos/fundamentos-gerais/src/main/kotlin/e/maisfuncoes)        | 
 
 
 ## 🖇️ Colaborando
