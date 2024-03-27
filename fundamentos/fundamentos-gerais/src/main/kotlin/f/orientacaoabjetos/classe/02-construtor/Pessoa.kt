@@ -10,7 +10,8 @@ class Pessoa(val anoNascimento: Int, var nome:String) {
 }
 
 fun main(){
-    var pessoa:Pessoa=Pessoa(1981,"Carlos","123456");
+    //var pessoa:Pessoa=Pessoa(1981,"Carlos","123456");
+    var pessoa = Pessoa(1981,"Carlos","123456");
     pessoa.acordar()
     pessoa.dormir()
 }
