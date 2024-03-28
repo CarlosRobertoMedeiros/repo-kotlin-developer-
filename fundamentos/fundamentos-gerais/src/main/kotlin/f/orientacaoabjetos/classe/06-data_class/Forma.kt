@@ -35,11 +35,22 @@ fun main(){
     println(f2.hashCode())
     println("---------Utilizando Data Class--------------")
     val f3 = FormaData(10,8)
-    val f4 = FormaData(10,8)
+    var f4 = FormaData(10,8)
     println(f3.equals(f4))
     println(f3.toString())
     println(f3.hashCode())
     println("---------------")
     println(f4.toString())
     println(f4.hashCode())
+
+    //Copia utilizando apenas o dataclass
+    // Faz uma cópia dos valores dos atributos
+    f4 = f3.copy(a=50, b=20)
+
 }
+
+//exemplo de aplicabilidade
+// O dataclass passando os parâmetros para ganhar equals hascode e toString
+// e na função address recebendo esses valores
+data class Address(val street:String , val zipCode:String, val city:String)
+fun address(address:Address){}
